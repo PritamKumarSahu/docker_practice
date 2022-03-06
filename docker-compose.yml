@@ -3,6 +3,6 @@ version: '2.0'
 services:
  app:
   image: 'node-docker'
-  build: /node-docker
+  build: ''
   ports:
    - "4000:3000"
